@@ -1,3 +1,48 @@
 <resources>
-    <string name="app_name">BlueToothDemo</string>
+    <string name="app_name">蓝牙学习助手</string>
+    
+    <!-- 蓝牙相关字符串 -->
+    <string name="bluetooth_not_supported">设备不支持蓝牙</string>
+    <string name="bluetooth_permission_required">需要蓝牙权限</string>
+    <string name="bluetooth_enable_required">请开启蓝牙</string>
+    <string name="scanning_devices">正在扫描设备...</string>
+    <string name="scan_stopped">扫描已停止</string>
+    <string name="connecting">正在连接...</string>
+    <string name="connected">已连接</string>
+    <string name="disconnected">未连接</string>
+    <string name="connection_failed">连接失败</string>
+    
+    <!-- 按钮文本 -->
+    <string name="enable_bluetooth">开启蓝牙</string>
+    <string name="start_scan">开始扫描</string>
+    <string name="stop_scan">停止扫描</string>
+    <string name="connect">连接</string>
+    <string name="disconnect">断开连接</string>
+    <string name="send">发送</string>
+    <string name="receive">接收</string>
+    <string name="clear">清空</string>
+    <string name="refresh">刷新</string>
+    
+    <!-- 标签文本 -->
+    <string name="discovered_devices">发现的设备</string>
+    <string name="paired_devices">已配对设备</string>
+    <string name="bluetooth_status">蓝牙状态</string>
+    <string name="connection_status">连接状态</string>
+    <string name="communication_log">通信记录</string>
+    <string name="quick_commands">快速命令</string>
+    <string name="bluetooth_knowledge">蓝牙知识</string>
+    
+    <!-- 输入提示 -->
+    <string name="input_data_hint">输入要发送的数据</string>
+    
+    <!-- 设备信息 -->
+    <string name="unknown_device">未知设备</string>
+    <string name="device_address">设备地址</string>
+    <string name="device_name">设备名称</string>
+    
+    <!-- 错误消息 -->
+    <string name="error_sending_data">发送数据失败</string>
+    <string name="error_receiving_data">接收数据失败</string>
+    <string name="error_no_permission">没有必要的权限</string>
+    <string name="error_bluetooth_disabled">蓝牙未开启</string>
 </resources>
